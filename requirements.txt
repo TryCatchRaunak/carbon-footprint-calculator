@@ -1,7 +1,7 @@
 streamlit
 crewai
 crewai_tools
-chromadb
+chromadb[duckdb]
 matplotlib
 python-docx
 torch
