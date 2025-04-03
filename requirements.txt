@@ -1,5 +1,5 @@
 streamlit
 matplotlib
 python-dotenv
-docx
+python-docx
 crewai
