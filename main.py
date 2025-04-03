@@ -1,6 +1,6 @@
 import chromadb
 
-chroma_client = chromadb.PersistentClient(path=None)  # Forces in-memory mode
+chroma_client = chromadb.HttpClient(host="0.0.0.0", port=8000)  # Forces in-memory mode
 
 
 import streamlit as st
