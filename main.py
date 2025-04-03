@@ -1,12 +1,5 @@
-import chromadb
-
-chroma_client = chromadb.HttpClient(host="0.0.0.0", port=8000)  # Forces in-memory mode
-
-
 import streamlit as st
-import json
 import io
-import os
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 from docx import Document
