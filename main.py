@@ -1,3 +1,8 @@
+import chromadb
+
+chroma_client = chromadb.PersistentClient(path=None)  # Forces in-memory mode
+
+
 import streamlit as st
 import json
 import io
