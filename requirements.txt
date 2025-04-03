@@ -1,5 +1,13 @@
 streamlit
-matplotlib
-python-dotenv
-python-docx
 crewai
+crewai_tools
+chromadb
+matplotlib
+python-docx
+torch
+numpy
+pandas
+pydantic
+requests
+fastapi
+uvicorn
