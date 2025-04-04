@@ -9,8 +9,8 @@ from crewai import Agent, Task, Crew, Process
 load_dotenv()
 
 # Streamlit UI Configuration
-st.set_page_config(page_title="Carbon Footprint Calculator", page_icon="🌍", layout="wide")
-st.title("🌍 Carbon Footprint Calculator")
+st.set_page_config(page_title="AI-Based Carbon Footprint Calculator", page_icon="🌍", layout="wide")
+st.title("🌍AI-Based Carbon Footprint Calculator")
 
 # Description
 st.markdown("""
